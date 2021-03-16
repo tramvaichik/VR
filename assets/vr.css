@@ -1,0 +1,98 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 7px;
+}
+
+.header {
+    text-align: center;
+    color: #E5E5E5;
+    font-family: 'Fira Sans Condensed',
+        sans-serif;
+}
+
+.section-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.page {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.page__button {
+    background-color: rgba(82, 34, 208, 1);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.heading {
+    padding: 20px;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-form {
+
+    background-color: #EC615B;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 15%;
+    width: 60%;
+
+}
+
+.section-form__input {
+    margin-bottom: 4%;
+}
+
+
+
+.section-form__button {
+    background-color: rgba(82, 34, 208, 1);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.footer__nav li {
+    display: inline;
+
+    list-style-type: none;
+    padding: 6px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+a:link {
+    color: rgb(0, 0, 0)
+}
+
+a:visited {
+    color: rgb(174, 230, 243);
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
