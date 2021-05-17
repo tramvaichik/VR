@@ -4,6 +4,10 @@
     margin: 7px;
 }
 
+.title {
+    margin: 0;
+}
+
 .header {
     text-align: center;
     color: #E5E5E5;
@@ -40,17 +44,21 @@
 .content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 3%;
+    padding: 3%;
+}
+
+.content-item__img {
+    background-color: rgba(236, 97, 91, 1);
 }
 
 .section-form {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: #EC615B;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 15%;
+    padding: 5%;
     width: 60%;
-
 }
 
 .section-form__input {
